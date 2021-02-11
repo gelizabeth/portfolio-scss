@@ -1,4 +1,4 @@
-@import './config', './home', './menu';
+@import './config', './home', './menu', './about', './projects', './contact', './responsive';
 
 body{
     background-color: $primary-color;
@@ -14,6 +14,9 @@ a{
     color: set-text-color($primary-color);
     text-decoration: none;
 }
+.text-secondary{
+    color: $secondary-color;
+}
 header{
     position: fixed;
     z-index: 2;
@@ -21,6 +24,7 @@ header{
     padding: 1rem;
 }
 main{
+    
     height: 100%;
     width: 100%;
     .social-icons{
@@ -39,8 +43,9 @@ main{
 footer{
     font-size: 1rem;
     position: fixed;
-    bottom: .4rem;
+    bottom: 1rem;
     right: 1rem;
     text-align: right;
     color: set-text-color($primary-color);
+   
 }
